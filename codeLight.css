@@ -1,0 +1,76 @@
+code.codeLight-html {
+  font-family: Consolas, 'Lucida Console', 'DejaVu Sans Mono', monospace;
+  font-size: 12px;
+}
+span.html-tagName {
+  color: #800000;
+}
+span.html-bracket {
+  color: #0000ff;
+}
+span.html-attr {
+  color: #ff0000;
+}
+span.html-comment {
+  color: #008000;
+}
+span.js-comment {
+  color: #008000;
+}
+span.js-keyword {
+  color: #0000ff;
+}
+span.js-string {
+  color: #a31515;
+}
+span.css-keyword {
+  color: #a31515;
+}
+span.css-styleName {
+  color: #ff0000;
+}
+span.css-value {
+  color: #0000ff;
+}
+span.css-comment {
+  color: #008000;
+}
+
+table.code-tb tr{
+    margin:0;
+    padding:0;
+    line-height:11px;
+    vertical-align:middle;
+}
+table.code-tb td.code-tb-border {
+    padding:0 5px 0 0;
+    border-left: 2px solid #c0c0c0;
+}
+table.code-tb td.code-tb-info{
+    color:rgba(0,0,0,0.3);
+    border-bottom:1px dashed rgba(0,0,0,0.3);
+    text-align:left;
+}
+table.code-tb td.code-tb-info a{
+    float:right;
+    cursor:pointer;
+    opacity:0.3;
+    transition:opacity 0.5s;
+}
+table.code-tb td.code-tb-info a:hover{
+    opacity:1;
+}
+table.code-tb td.code-tb-order {
+  color: #c0c0c0;
+  padding:0 2px 0 0;
+}
+table.code-tb tr.code-db-line {
+  cursor: pointer;
+}
+table.code-tb tr.code-db-line:hover {
+  background: #e6e6b6;
+}
+
+table.code-tb td.code-td{
+    min-width:620px;
+}
