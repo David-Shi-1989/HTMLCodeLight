@@ -1,0 +1,24 @@
+{
+  "name": "htmlcodelight",
+  "version": "1.0.0",
+  "description": "CodeLight is a js-plugin which help us to paste code in our blogs.\r 我们日常技术博客，常常需要贴代码，而本插件就是方便用户贴HTML5代码。根据VS2016对HTML代码高亮样式",
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/David-Shi-1989/HTMLCodeLight.git"
+  },
+  "keywords": [
+    "lightcode"
+  ],
+  "author": "david_shi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/David-Shi-1989/HTMLCodeLight/issues"
+  },
+  "homepage": "https://github.com/David-Shi-1989/HTMLCodeLight#readme",
+  "dependencies": {
+  }
+}
