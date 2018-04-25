@@ -24,7 +24,7 @@ $(function () {
     var lineIndent = {
         "codeType": codeType.unknow,
         "indentDeepth": 0,
-        "numOfSpacePerIndentDeepth": 4,
+        "numOfSpacePerIndentDeepth": 2,
         "isComment": false,
         "endOfComent": false,
         "js-indentDeepth": 1

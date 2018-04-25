@@ -6,29 +6,44 @@
     <meta charset="utf-8" />
     <title>CodeLight Demo</title>
     <link rel="stylesheet" href="./src/codeLight.css" />
-    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="./src/codeLight.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/1.12.2/jquery.js"></script>
+    <script src="./src/codeLight.1.js"></script>
+    <style>
+        #main {
+            width: 80%;
+            margin: 20px auto 0 auto;
+        }
+        #txt_code_input{
+            width: 100%;
+            min-height: 300px;
+            resize: none;
+            padding:10px;
+            border-radius: 3px;
+            font-size: .8rem;
+            font-family: Consolas;
+        }
+        #btn_transfer {
+            width: 70px;
+            height: 30px;
+            background: #2d8cf0;
+            color:#fff;
+            border: 0;
+            outline: 0;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <h1>CodeLight is Easy!</h1>
-		<code class="codeLight-html" CL-FileName="index.html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-    &lt;!-- This is Common --&gt;
-    &lt;meta charset="utf-8" /&gt;
-    &lt;title&gt;CodeLight Demo&lt;/title&gt;
-    &lt;link rel="stylesheet" href="assets/css/style.css" /&gt;
-    &lt;script src="assets/js/jquery-1.10.2.min.js"&gt;&lt;/script&gt;
-    &lt;script src="assets/js/index.js"&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;h1&gt;CodeLight is Easy!&lt;/h1&gt;
-		&lt;code class="codeLight-html" CL-FileName="index.html"&gt;
-		&lt;/code&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-
-		</code>
+    <div id='main'>
+        <!-- <h1>CodeLight is Easy!</h1> -->
+        <textarea id="txt_code_input"></textarea>
+        <button id="btn_transfer" onclick="onTransferBtnClick()">transfer</button>
+    </div>
 </body>
+<script>
+    function onTransferBtnClick () {
+        $("#h1").codelight('ds');
+    }
+</script>
 </html>
